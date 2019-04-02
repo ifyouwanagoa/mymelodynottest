@@ -40,8 +40,6 @@ ${emoji2}**|-members ⟿⟿⟿⟿ Status of member|**${emoji4}
 
 ${emoji2}**|-say ⟿⟿⟿⟿⟿⟿ Status of member|**${emoji4}
 
-${emoji2}**|-emojis ⟿⟿⟿⟿⟿ Emoji Of Server|**${emoji4}
-
   `
 ,`
         **${emoji3}  𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗧𝗢𝗥 - 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦  ${emoji}**
@@ -410,7 +408,7 @@ var prefix = "$";
        
 });
 
-client.on('message',  message =>{ // Leaked by [ @M3a4x ]
+client.on('message',  message =>{ // Leaked by [ Magic0 ]
 var moruad = 60000;
 if (message.author.omar) return;
 if (!message.content.startsWith(prefix)) return;
@@ -902,23 +900,6 @@ client.on('message', message => {
     
     });
 
-
-
-client.on('message', message => { 
-let prefix = '$'
-    if (message.content.startsWith(prefix + 'emojis')) {
-
-        const List = message.guild.emojis.map(e => e.toString()).join(" ");
-
-        const EmojiList = new Discord.RichEmbed()
-            .setTitle('➡ Emojis') 
-            .setAuthor(message.guild.name, message.guild.iconURL) 
-            .setColor('RANDOM') 
-            .setDescription(List) 
-            .setFooter(message.guild.name) 
-        message.channel.send(EmojiList) 
-    }
-});
 
 client.on('message',function(message) {
 	let prefix = "$";
