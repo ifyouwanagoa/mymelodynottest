@@ -917,7 +917,6 @@ client.on("ready", () => { // كود رينبو
   setInterval(lol, 2000);
 });
 
-𝙈𝙮.𝙈𝙚𝙡𝙤𝘿𝙮
 client.on("ready", async  => { 
 setInterval(function(){
 client.channels.find('id', '562687319799365662').setName("♥");
