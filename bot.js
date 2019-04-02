@@ -13,10 +13,10 @@ client.user.setGame(`My.Melody | use:$help `,'https://www.twitch.tv/ℕ o v a Co
 
 
 client.on('message', message => {
-let emoji = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag");
-let emoji2 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "Mfire");
-let emoji3 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "mag2");
-let emoji4 = client.guilds.get("553973946354237440").emojis.find(r => r.name === "purple");
+let emoji = client.guilds.get("521126103587225630").emojis.find(r => r.name === "mag");
+let emoji2 = client.guilds.get("521126103587225630").emojis.find(r => r.name === "Mfire");
+let emoji3 = client.guilds.get("521126103587225630").emojis.find(r => r.name === "mag2");
+let emoji4 = client.guilds.get("521126103587225630").emojis.find(r => r.name === "purple");
 
               var prefix = "$" ;
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By Magic0
