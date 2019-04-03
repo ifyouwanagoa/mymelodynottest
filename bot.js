@@ -917,21 +917,6 @@ client.on("ready", () => { // كود رينبو
   setInterval(lol, 2000);
 });
 
-client.on("ready", async  => { 
-setInterval(function(){
-client.channels.find('id', '562687319799365662').setName("♥");
-client.channels.find('id', '562687319799365662').setName("♥𝙈");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚𝙡");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚𝙡𝙤");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚𝙡𝙤𝘿");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚𝙡𝙤𝘿𝙮");
-client.channels.find('id', '562687319799365662').setName("♥𝙈𝙮.𝙈𝙚𝙡𝙤𝘿𝙮♥");
-  }, 3000);
-});
 
 
 client.login(process.env.BOT_TOKEN);
